@@ -1,0 +1,16 @@
+.alert-text {
+  background-color: #FF8686;
+  font-family: verdana, "Dejavu Sans", sans-serif;
+}
+#second-element {
+  color: #361ED0;
+  font-size: 36px;
+}
+.title {
+  font-size: 24px;
+}
+#fourth-element {
+  background-color: #2DF56F;
+  font-size: 24px;
+  font-weight: bold;
+}
