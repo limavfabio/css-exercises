@@ -1,0 +1,11 @@
+.first-element {
+  background-color: black;
+  color: white;
+}
+.second-element {
+  background-color: yellow;
+}
+.button {
+  font-size: 28px;
+  font-family: times, serif
+}
