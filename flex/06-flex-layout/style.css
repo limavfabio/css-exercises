@@ -7,15 +7,70 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+a {
+  color: rgb(77, 77, 77);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+}
+
+.left-links {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.right-links {
+  display: flex;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.profile-link,
+.privacy-link {
+  margin-right: 15px;
+}
+
+.about-link,
+.advertising-link {
+  margin-right: 15px;
+}
+
+.content {
+  min-height: calc(100vh - 102px);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
 img {
   width: 600px;
+  height: 225px;
+}
+
+.buttons {
+  display: flex;
 }
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
+  padding: .5em 1em;
   background: #eee;
+  margin: 0 .5em 2em .5em;
 }
 
 input {
